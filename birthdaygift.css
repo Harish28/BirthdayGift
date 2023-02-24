@@ -1,0 +1,73 @@
+.gift {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Happy Monkey', cursive;
+    /* background-color: #a2d2ff; */
+    background: linear-gradient(lightskyblue,pink);
+    color: white;
+}
+
+#profile {
+    border: 6px solid #EFBBC9;
+    border-radius: 50%;
+    width: 200px;
+}
+h1,h2,h4 {
+    text-shadow: 2px 2px 2px black;
+}
+
+#bday-age {
+    padding: 5px;
+    border-radius: 5px 10px;
+    background-color: #EFBBC9;
+    margin-bottom: 10px;
+}
+
+#bday-date {
+    padding: 3px;
+    border-radius: 5px 10px;
+    background-color: #EFBBC9;
+    margin: 0 0 10px 0;
+}
+
+#gift-title {
+     
+}
+
+#gift-inst {
+    
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    background-image: url("images/new-gift-image.jpeg");
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#gift-img-happy:hover {
+    background-image: url(images/phoebe-excited.gif);
+}
+
+#gift-img-reaction:hover {
+    background-image: url(images/phoebe-excited.gif);
+}
+
+#gift-img-describe:hover {
+    background-image: url(images/phoebe-excited.gif);
+}
+
+#gift-img-love:hover {
+    background-image: url(images/phoebe-excited.gif);
+}
+#gift-img-cheers {
+    height: 200px;
+}
+#gift-img-cheers:hover {
+    background-image: url(images/cheers.gif);
+}
